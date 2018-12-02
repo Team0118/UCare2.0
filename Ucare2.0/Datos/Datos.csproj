@@ -5,8 +5,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Creado por yooo!!\" />
-    <Folder Include="NewFolder\" />
+    <Folder Include="Cri\" />
   </ItemGroup>
 
 </Project>
