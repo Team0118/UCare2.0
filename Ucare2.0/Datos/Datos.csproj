@@ -5,8 +5,12 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Creado por yooo!!\" />
-    <Folder Include="NewFolder\" />
+    <Compile Remove="Creado por yooo!!\**" />
+    <Compile Remove="NewFolder\**" />
+    <EmbeddedResource Remove="Creado por yooo!!\**" />
+    <EmbeddedResource Remove="NewFolder\**" />
+    <None Remove="Creado por yooo!!\**" />
+    <None Remove="NewFolder\**" />
   </ItemGroup>
 
 </Project>
